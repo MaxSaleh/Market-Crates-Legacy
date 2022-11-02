@@ -1,20 +1,18 @@
-
-modLoader="javafml" #mandatory
-loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+modLoader="javafml"
+loaderVersion="[43,)"
 license="Apache-2.0 License"
-issueTrackerURL="https://github.com/lfaoanl/MarketCrates/issues" #optional
+issueTrackerURL="https://github.com/MaxSaleh/Market-Crates-Legacy/issues"
 
-[[mods]] #mandatory
-modId="marketcrates" #mandatory
-version="1.4.1" #mandatory
-displayName="Market Crates" #mandatory
+[[mods]]
+   modId="marketcrates"
+   version="1.4.2"
+   displayName="Market Crates"
 
-updateJSONURL="http://lfaoanl.space/mc/marketcrates/update.json" #optional
-displayURL="https://github.com/lfaoanl/MarketCrates/" #optional
-logoFile="marketcrates_logo.png" #optional
-# A text field displayed in the mod UI
-authors="Lfaoanl" #optional
-# The description text for the mod (multi line!) (#mandatory)
+updateJSONURL=""
+displayURL="https://github.com/MaxSaleh/Market-Crates-Legacy"
+logoFile="marketcrates_logo.png"
+authors="MaxIsH0t"
+
 description='''
 Some crates to spice up your towns, markets, fishing docs, you name it!
 - Available in all different wood types
@@ -24,16 +22,17 @@ Some crates to spice up your towns, markets, fishing docs, you name it!
 Shift click the crate to place stack crates in the same block space.
 Hit the crate with a stick to incline the crate. Hit it once with an axe to retrieve the stick (For creative mode right clicking with a stick toggles it)
 '''
-[[dependencies.marketcrates]] #optional
-   modId="forge" #mandatory
-   mandatory=true #mandatory
-   versionRange="[39,)" #mandatory
+
+[[dependencies.marketcrates]]
+   modId="forge"
+   mandatory=true
+   versionRange="[43,)"
    ordering="NONE"
    side="BOTH"
-# Here's another dependency
+
 [[dependencies.marketcrates]]
    modId="minecraft"
    mandatory=true
-   versionRange="[1.18,)"
+   versionRange="[1.19.2,1.20)"
    ordering="NONE"
    side="BOTH"
