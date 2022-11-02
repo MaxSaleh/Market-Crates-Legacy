@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "marketcrates",
+  "pattern": [
+    "FFF",
+    "SSS"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:acacia_fence"
+    },
+    "S": {
+      "item": "minecraft:acacia_slab"
+    }
+  },
+  "result": {
+    "item": "marketcrates:acacia_crate"
+  }
+}

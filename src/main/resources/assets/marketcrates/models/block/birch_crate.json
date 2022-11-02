@@ -1,0 +1,7 @@
+{
+  "parent": "marketcrates:block/crate",
+  "textures": {
+    "particle": "minecraft:block/birch_planks",
+    "material": "minecraft:block/birch_planks"
+  }
+}

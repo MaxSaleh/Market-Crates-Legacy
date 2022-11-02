@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,type=default": {
+      "model": "marketcrates:block/crimson_crate"
+    },
+    "facing=south,type=default": {
+      "model": "marketcrates:block/crimson_crate",
+      "y": 180
+    },
+    "facing=west,type=default": {
+      "model": "marketcrates:block/crimson_crate",
+      "y": 270
+    },
+    "facing=east,type=default": {
+      "model": "marketcrates:block/crimson_crate",
+      "y": 90
+    },
+    "facing=north,type=inclined": {
+      "model": "marketcrates:block/crimson_crate_inclined"
+    },
+    "facing=south,type=inclined": {
+      "model": "marketcrates:block/crimson_crate_inclined",
+      "y": 180
+    },
+    "facing=west,type=inclined": {
+      "model": "marketcrates:block/crimson_crate_inclined",
+      "y": 270
+    },
+    "facing=east,type=inclined": {
+      "model": "marketcrates:block/crimson_crate_inclined",
+      "y": 90
+    },
+    "facing=north,type=double": {
+      "model": "marketcrates:block/crimson_crate_double"
+    },
+    "facing=south,type=double": {
+      "model": "marketcrates:block/crimson_crate_double",
+      "y": 180
+    },
+    "facing=west,type=double": {
+      "model": "marketcrates:block/crimson_crate_double",
+      "y": 270
+    },
+    "facing=east,type=double": {
+      "model": "marketcrates:block/crimson_crate_double",
+      "y": 90
+    }
+  }
+}

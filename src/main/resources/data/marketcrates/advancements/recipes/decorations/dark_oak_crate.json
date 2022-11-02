@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "marketcrates:dark_oak_crate"
+    ]
+  },
+  "criteria": {
+    "has_wood_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_slab"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "marketcrates:dark_oak_crate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

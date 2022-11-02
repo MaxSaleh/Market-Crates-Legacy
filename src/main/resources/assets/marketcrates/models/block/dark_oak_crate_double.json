@@ -1,0 +1,7 @@
+{
+  "parent": "marketcrates:block/crate_double",
+  "textures": {
+    "particle": "minecraft:block/dark_oak_planks",
+    "material": "minecraft:block/dark_oak_planks"
+  }
+}

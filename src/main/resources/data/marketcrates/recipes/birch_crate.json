@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "marketcrates",
+  "pattern": [
+    "FFF",
+    "SSS"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:birch_fence"
+    },
+    "S": {
+      "item": "minecraft:birch_slab"
+    }
+  },
+  "result": {
+    "item": "marketcrates:birch_crate"
+  }
+}

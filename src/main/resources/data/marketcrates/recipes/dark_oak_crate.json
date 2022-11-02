@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "marketcrates",
+  "pattern": [
+    "FFF",
+    "SSS"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:dark_oak_fence"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_slab"
+    }
+  },
+  "result": {
+    "item": "marketcrates:dark_oak_crate"
+  }
+}

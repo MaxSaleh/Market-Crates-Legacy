@@ -1,0 +1,7 @@
+{
+  "parent": "marketcrates:block/crate_inclined",
+  "textures": {
+    "particle": "minecraft:block/jungle_planks",
+    "material": "minecraft:block/jungle_planks"
+  }
+}
